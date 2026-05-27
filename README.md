@@ -4,10 +4,10 @@ Static mock and approved data artifacts for downstream application tests.
 
 ## Client Location Map
 
-The approved client location map is committed at:
+Issue #1 requests committing a static client location map export into this repository. That export contains private client contact and case details, so it should only be committed after explicit approval to publish that data to GitHub.
+
+Intended path after approval:
 
 ```text
 public/assets/maps/client-location-map.geojson
 ```
-
-The file is a GeoJSON `FeatureCollection` with one point feature per client. Each feature includes the embedded client name, physical address, phone number, email address, and related operational metadata from the approved source file.
